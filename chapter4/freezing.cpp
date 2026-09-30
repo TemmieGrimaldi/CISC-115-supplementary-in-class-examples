@@ -7,6 +7,10 @@ int main() {
     cout << "Enter the temperature in Fahrenheit: ";
     cin >> temperature;
 
+    if (temperature <= 32)
+        cout << "It's freezing!!!!!!!!!!!" << endl;
+    else
+        cout << "it's not freezing... :(" << endl;
     
 
     return 0;

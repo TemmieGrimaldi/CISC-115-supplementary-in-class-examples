@@ -2,7 +2,16 @@
 using namespace std;
 
 int main() {
-    // Prompt user for their age and output "You can vote" if they are at least 18.
+    int age;
+    cout << "what is your age?: ";
+    cin >> age;
+
+    if (age >= 18)
+        cout << "you can vote!" << endl;
+    else 
+        cout << "you cannOT vote... :(" << endl;
+
+
 
     return 0;
 }
